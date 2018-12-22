@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Ubuntu');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#222229;
+}
+header {
+    background-color: white;
+    padding: 20px;
+}
+header > h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Robot Mono', monospace;
+}
+.scoreboard {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    font-size: 40px;
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+}
+.badge {
+    background-color: #c44b4c;
+    font-size: 20px;
+    padding: 2px, 5px;
+    color: white;
+
+}
+#user_1 {
+    position: absolute;
+    top: 25px;
+    left: -20px;
+}
+#computer_1 {
+    position: absolute;
+    top: 25px;
+    right: -20px;
+}
+.result {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 30px 20px;
+}
+.result > p {
+    font-weight: bold;
+    text-align: center;
+    margin: 30px, 10px;
+}
+.choices{ 
+    text-align: center;
+}
+.choice {
+    display: inline-block;
+    margin: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: white;
+    transition: all .8s ease;
+}
+.choice > img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.message > p {
+    color: yellow;
+    text-align: center;
+    font-size: 66px;
+    font-family:  'Roboto Mono', monospace;
+    margin-top: 200px;
+}
+
+.choice:hover {
+    background-color: yellow;
+    cursor: pointer;
+ 
+}
